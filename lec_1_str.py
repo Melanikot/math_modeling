@@ -3,7 +3,7 @@ b = 'Bad'
 
 print(a + b)
 
-# ptint(a - b)
+# print(a - b)
 
 print(a * 3)
 
