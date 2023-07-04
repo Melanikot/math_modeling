@@ -1,5 +1,6 @@
 a = int(input('Введите число: '))
-while a >= 10: 
-    print(a % 10)
+c = a % 10
+while a >= 10:
+    b = [c] 
     a //= 10
 print(a)
