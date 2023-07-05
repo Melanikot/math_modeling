@@ -1,6 +1,5 @@
 a = int(input('Введите число: '))
-c = a % 10
-while a >= 10:
-    b = [c] 
-    a //= 10
-print(a)
+b = str(a)
+for i in range(len(b), 0, -1):
+        print(b[i-1], end='')
+print()
