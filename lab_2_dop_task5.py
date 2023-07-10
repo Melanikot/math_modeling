@@ -2,7 +2,6 @@ a = int(input('Введите натуральное число: '))
 if a <= 0:
     print('Ошибка')
 else:
-    
     for y in range(1, a + 1, 1):
         c = 0
         b = []
