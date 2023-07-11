@@ -8,7 +8,7 @@ v0y = float(input('Введите v0y: '))
 t = np.arange(0, 5, 1)
 x = x0 + v0x * t
 y = y0 + v0y * t - g * t ** 2 / 2 
-a = np.zeros(len(t), 3))
+a = np.zeros((len(t), 3))
 print(a)
 for i in range(len(t)):
     a[i, 0] = t[i]
