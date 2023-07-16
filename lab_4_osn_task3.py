@@ -1,2 +1,3 @@
-from const.py import g
-print(g)
+m = int(input('Введите массу тела: '))
+v = int(input('Введите скорость тела: '))
+h = int(input('Введите высоту полёта: '))
